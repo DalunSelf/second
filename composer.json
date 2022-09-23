@@ -1,0 +1,17 @@
+{
+    "name": "dalunself/second",
+    "require": {
+        "php": "^8.0.2",
+        "symfony/dependency-injection": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DalunSelf\\SecondPackage\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
